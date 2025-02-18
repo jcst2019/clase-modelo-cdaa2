@@ -1,7 +1,9 @@
 # clase-modelo-cdaa2
 Clase Modelo del Curso de Desarrollo Avanzado de Aplicaciones 2
 
+```sh
 # Paso 1: Crear el Proyecto Angular
+
 ng new modular-app --routing
 cd modular-app
 ng serve
