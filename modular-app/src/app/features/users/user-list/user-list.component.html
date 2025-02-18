@@ -1,2 +1,7 @@
-<p>user-list works!</p>
 <h2>Lista de Usuarios</h2>
+<app-custom-button label="Añadir Usuario"></app-custom-button>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }} - Rol: {{ user.role }} - Email: {{ user.email }}
+  </li>
+</ul>

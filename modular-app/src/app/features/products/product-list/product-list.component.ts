@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
 
+  products = [
+    { name: 'Laptop', category: 'Electrónica', quantity: 10, price: 1500 },
+    { name: 'Celular', category: 'Electrónica', quantity: 20, price: 800 },
+    { name: 'Teclado', category: 'Accesorios', quantity: 50, price: 40 }
+  ];
+  
 }

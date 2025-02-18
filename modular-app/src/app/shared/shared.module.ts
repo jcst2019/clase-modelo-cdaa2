@@ -10,6 +10,7 @@ import { CustomButtonComponent } from './custom-button/custom-button.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [CustomButtonComponent]
 })
 export class SharedModule { }

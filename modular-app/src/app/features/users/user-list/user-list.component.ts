@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class UserListComponent {
 
+  users = [
+    { name: 'Juan Pérez', role: 'Administrador', email: 'juan@example.com' },
+    { name: 'María López', role: 'Usuario', email: 'maria@example.com' },
+    { name: 'Carlos Sánchez', role: 'Moderador', email: 'carlos@example.com' }
+  ];
+  
 }
